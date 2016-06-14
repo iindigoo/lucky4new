@@ -45,7 +45,7 @@
 			    </ul>
 			    <div class="navbar-right sign">
 			    	<ul class="nav navbar-nav">
-			      	<li class="sign"><a href="#fakelink">Sign in</a></li>
+			      	<li class="sign"><a href="login.php">Sign in</a></li>
 					<button class="btn btn-default navbar-btn btn-sm" type="button">Sign up</button>	
 					</ul>
 				</div>
