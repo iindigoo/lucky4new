@@ -21,13 +21,16 @@
 			  <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
 			  <input type="passwordlogin" class="form-control" name="Password" placeholder="Password" required=""/>     		  
 			 
+			 
 			  <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Login</button>
-			
+
+
 
 			  <div class="arrowleft">
 			  	<a href="index.php"><i class="fa fa-arrow-left fa-4x"  aria-hidden="true"></i></a>
 			  </div>
 		</form>			
+
 	</div>
 </div>
 </body>
