@@ -6,9 +6,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Login</title>
 	<link rel="stylesheet" href="dist/css/login.css">
 	<link rel="stylesheet" href="dist/css/bootstrap.css">
+	<script src="https://use.fontawesome.com/7a7f3effb0.js"></script>
 </head>
 <body>
 <div class = "container">
@@ -18,10 +19,13 @@
 			  <hr class="colorgraph"><br>
 			  
 			  <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
-			  <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>     		  
+			  <input type="passwordlogin" class="form-control" name="Password" placeholder="Password" required=""/>     		  
 			 
 			  <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Login</button>
-			  	
+
+			  <div class="arrowright">
+			  	<a href="register.php"><i class="fa fa-arrow-right fa-4x"  aria-hidden="true"></i></a>
+			  </div>
 		</form>			
 	</div>
 </div>

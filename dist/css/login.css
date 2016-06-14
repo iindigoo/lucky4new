@@ -5,7 +5,7 @@
 
 .form-signin {
   max-width: 420px;
-  padding: 30px 38px 40px;
+  padding: 30px 38px 55px;
   margin: 0 auto;
   background-color: #eee;
   border: 3px dotted rgba(0,0,0,0.1);  
@@ -29,8 +29,26 @@ input[type="text"] {
   border-bottom-right-radius: 0;
 }
 
+input[type="passwordlogin"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 input[type="password"] {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+input[type="repeatpassword"] {
+  margin-bottom: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+input[type="email"] {
+  margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -44,4 +62,48 @@ input[type="password"] {
   background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.arrowleft {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  margin-left: 123px;
+  margin-top: 10px;
+  border-radius: 100px;
+  position: absolute;
+  border: 3px dotted rgba(0,0,0,0.1); 
+}
+
+.arrowleft i {
+  margin-top: 15px;
+  margin-left: 22px;
+
+}
+
+.arrowleft:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #888888;
+}
+
+.arrowright {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  margin-left: 120px;
+  margin-top: 10px;
+  border-radius: 100px;
+  position: absolute;
+  border: 3px dotted rgba(0,0,0,0.1); 
+}
+
+.arrowright i {
+  margin-top: 15px;
+  margin-left: 25px;
+
+}
+
+.arrowright:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #888888;
 }
