@@ -22,9 +22,10 @@
 			  <input type="passwordlogin" class="form-control" name="Password" placeholder="Password" required=""/>     		  
 			 
 			  <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Login</button>
+			
 
-			  <div class="arrowright">
-			  	<a href="register.php"><i class="fa fa-arrow-right fa-4x"  aria-hidden="true"></i></a>
+			  <div class="arrowleft">
+			  	<a href="index.php"><i class="fa fa-arrow-left fa-4x"  aria-hidden="true"></i></a>
 			  </div>
 		</form>			
 	</div>
