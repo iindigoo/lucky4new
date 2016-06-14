@@ -6,8 +6,15 @@
 		  	<h2>Contact</h2>
 
 		  	</div>
-		  	<div class="col-md-4 col-md-4-footer">
+		  	<div class="col-md-4">
 		  	<h2>Follow us on</h2>
+			  	<ul class="list-inline">
+			  		<li><a href=""><img src="dist/img/icons/png/social.png" alt=""></a></li>
+			  		<li><a href=""><img src="dist/img/icons/png/google-plus.png" alt=""></a></li>
+			  		<li><a href=""><img src="dist/img/icons/png/social-media-1.png" alt=""></a></li>
+			  		<li><a href=""><img src="dist/img/icons/png/social-media.png" alt=""></a></li>
+			  		<li><a href=""><img src="dist/img/icons/png/social-media-4.png" alt=""></a></li>
+			  	</ul>
 		  	</div>
 		  	<div class="col-md-4 col-md-4-footer">
 		  	<h2>FAQ</h2>

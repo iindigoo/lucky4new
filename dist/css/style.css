@@ -157,6 +157,7 @@ header {
 
 footer {
 	background-color: #36444F;
+	min-height: 200px;
 }
 .col-md-4 {
 	text-align: center;
@@ -166,13 +167,13 @@ footer {
 	font-size: 20pt;
 	padding-top: 10px;
 }
-.col-md-4-footer img {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	color: green;
-	width: 100px;
-	height: 100px;
+.footer-social li {
+	display: inline;
+}
+.list-inline img {
+	margin-top: 20px;
+	width: 25px;
+	height: 25px;
 }
 
 /* End Footer */
