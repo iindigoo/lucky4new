@@ -29,7 +29,7 @@
 				<p>PAID OUT EVERY WEEK</p>
 				</div>
 				<div class="col-md-15 col-sm-3"><h2>128</h2>
-				<p>TICK SERVERS</p>
+				<p>TICK SERVERSs</p>
 				</div>
 				<div class="col-md-15 col-sm-3"><h2>5.2 SEC</h2>
 				<p>AVG. PAYOUT TIME</p>
