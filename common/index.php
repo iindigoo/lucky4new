@@ -37,7 +37,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="iets-anders">
-		
+	<div class="box iets-anders">
 	</div>
 </div>
