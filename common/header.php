@@ -31,7 +31,7 @@
   <body>
     <header>
 		<nav class="navbar transparent navbar-default" role="navigation">
-			<div class="box">
+			<div class="box box-nav">
 			  <div class="navbar-header">
 			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
 			      <span class="sr-only">Toggle navigation</span>

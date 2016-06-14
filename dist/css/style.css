@@ -1,17 +1,26 @@
 * {margin: 0px; padding: 0px;}
 /* Header */
 header {
-	background-image: url(../../img/background.jpg);
-	min-height: 350px;
-	background-size: cover;
-	background-position: center;
+	background-color: #36444F;
+	min-height: 0;
 	width: 100%;
 	color: white;
+	text-transform: uppercase;
 }
-
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
 .navbar-default {
 	padding-bottom: 0;
 	margin-bottom: 0;
+}
+.box-nav {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	height: 40px;
 }
 .box {
   color: black;
@@ -51,45 +60,113 @@ header {
 /* Content */
 
 .content {
-	background-color: #FF777A;
-	min-height: 1000px;
+	background-color: #e85447;
+	min-height: 800px;
 }
 .col-md-4-content{
 	text-align: center;
-	margin-top: 200px;
-	margin-bottom: 200px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
-.content img {
+.col-md-4-content img {
 	width: 200px;
 	height: 200px;
 }
-.content h1 {
+.col-md-4-content h1 {
 	font-size: 25pt;
 	font-family: Lato;
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
-.content p{
+.col-md-4-content p{
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
 	text-align: center;
 }
+.content-info-line {
+	background-color: #d04b40;
+	height: 250px;
+}
+.content-info {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.content-info h3 {
+	opacity: 0.7;
+	font-size: 20pt;
+}
+.content-info h2{
+	padding-top: 20px;
+	font-size: 25pt;
+	color: #1abc9c;
+}
+.content-info p {
+	padding-bottom: 20px;
+}
 
+.content-info-center h1{
+	color: #1abc9c;
+	font-size: 35pt;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+	color: white;
+	text-align: center;
+    position: relative;
+    min-height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.col-xs-15 {
+    width: 10%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+.iets-anders {
+	background-color: #e85447;
+	min-height: 500px;
+}
 /* End Content */
 
 /* Footer */
 
 footer {
-	background-color: #768BAA;
+	background-color: #36444F;
 }
 .footer {
 	color: #1abc9c;
 	font-weight: 1900;
 }
+.col-md-4 {
+	text-align: center;
+}
 .footer-banner {
-	background-color: #627A9E;
+	background-color: #36444F;
 	min-height: 200px;
 }
 .footer-banner ul li {

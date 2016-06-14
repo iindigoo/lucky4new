@@ -1,24 +1,9 @@
 <footer>
 	<div class="box">
-		<div class="row footer">
- 			<div class="col-md-4">
-  				<h4 class="footer-title">Oketjes</h4>
-				<img src="dist/img/icons/png/paypal-logo.png" alt="">
-			</div>
-  		<div class="col-md-4">
-  			
-  		</div>
-  		<div class="col-md-4">
-  			<div class="footer-banner">
-				<h4 class="footer-title">Acount</h4>
-				<ul>
-					<li><a href="">Sign in</a></li>
-					<li><a href="">Sign up</a></li>
-					<li><a href="">Forgot Password</a></li>
-					<li><a href="">Forgot E-mail</a></li>
-				</ul>
-			</div>
-		</div>
+		<div class="row">
+  <div class="col-md-4"><img src="dist/img/icons/png/chat.png" alt=""></div>
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
 		</div>
 	</div>
 

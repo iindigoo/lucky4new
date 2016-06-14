@@ -15,4 +15,29 @@
 			</div>
 		</div>
 	</div>
+	<div class="content-info-line">
+		<div class="box">
+			<div class="row content-info">
+				<h3>Kickback is the biggest, fastest and easiest way to play video games for money online.</h3>
+				<div class="col-md-15 col-sm-3"><h2>250,000+</h2>
+				<p>MATCHES PLAYED</p>
+				</div>
+				<div class="col-md-15 col-sm-3"><h2>40,000+</h2>
+				<p>PLAYERS</p>
+				</div>
+				<div class="col-md-15 col-sm-3 content-info-center"><h1>$10,000+</h1>
+				<p>PAID OUT EVERY WEEK</p>
+				</div>
+				<div class="col-md-15 col-sm-3"><h2>128</h2>
+				<p>TICK SERVERS</p>
+				</div>
+				<div class="col-md-15 col-sm-3"><h2>5.2 SEC</h2>
+				<p>AVG. PAYOUT TIME</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="iets-anders">
+		
+	</div>
 </div>
