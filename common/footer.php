@@ -1,9 +1,17 @@
 <footer>
+<div class="footer"></div>
 	<div class="box">
 		<div class="row">
-  <div class="col-md-4"><img src="dist/img/icons/png/chat.png" alt=""></div>
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
+		  	<div class="col-md-4 col-md-4-footer">
+		  	<h2>Contact</h2>
+
+		  	</div>
+		  	<div class="col-md-4 col-md-4-footer">
+		  	<h2>Follow us on</h2>
+		  	</div>
+		  	<div class="col-md-4 col-md-4-footer">
+		  	<h2>FAQ</h2>
+		  	</div>
 		</div>
 	</div>
 

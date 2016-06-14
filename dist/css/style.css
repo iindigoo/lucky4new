@@ -87,7 +87,7 @@ header {
 }
 .content-info-line {
 	background-color: #d04b40;
-	height: 250px;
+	min-height: 250px;
 }
 .content-info {
 	color: white;
@@ -158,25 +158,21 @@ header {
 footer {
 	background-color: #36444F;
 }
-.footer {
-	color: #1abc9c;
-	font-weight: 1900;
-}
 .col-md-4 {
 	text-align: center;
+	color: white;
 }
-.footer-banner {
-	background-color: #36444F;
-	min-height: 200px;
+.col-md-4 h2{
+	font-size: 20pt;
+	padding-top: 10px;
 }
-.footer-banner ul li {
-	border-top: 1px solid #768BAA;
-}
-.footer-banner a {
-	text-decoration: none;
-}
-.footer img {
+.col-md-4-footer img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
 	color: green;
+	width: 100px;
+	height: 100px;
 }
 
 /* End Footer */
