@@ -41,6 +41,7 @@
 			  <div class="collapse navbar-collapse" id="navbar-collapse-01">
 			    <ul class="nav navbar-nav">
 			      <li><a href="tickets.php">Tickets</a></li>
+            <li><a href="roullete.php">Roullete</a></li>
 			      <li><a href="putin.php">Putin</a></li>
 			    </ul>
 			    <div class="navbar-right sign">
