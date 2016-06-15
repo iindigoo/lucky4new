@@ -1,3 +1,3 @@
 <?php 
-	include "tickets/tickets.php"
+	include "tickets/index.php"
  ?>

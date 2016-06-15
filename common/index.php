@@ -38,5 +38,6 @@
 		</div>
 	</div>
 	<div class="box iets-anders">
+
 	</div>
 </div>

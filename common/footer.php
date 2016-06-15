@@ -4,7 +4,8 @@
 		<div class="row">
 		  	<div class="col-md-4 col-md-4-footer">
 		  	<h2>Contact</h2>
-
+			<p>Lucky4@gmail.com</p>
+			<p>0612345678</p>
 		  	</div>
 		  	<div class="col-md-4">
 		  	<h2>Follow us on</h2>
