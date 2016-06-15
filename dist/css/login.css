@@ -1,3 +1,7 @@
+body.color {
+  background-color: #e85447;
+}
+
 .wrapper {    
   margin-top: 80px;
   margin-bottom: 20px;
@@ -22,6 +26,8 @@
   height: auto;
   padding: 10px;
 }
+
+
 
 input[type="text"] {
   margin-bottom: 0px;
@@ -52,6 +58,11 @@ input[type="email"] {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.btn.test {
+  margin-top: 5px;
+}
+
 
 .colorgraph {
   height: 7px;
@@ -86,7 +97,7 @@ input[type="email"] {
   box-shadow: 1px 1px 3px #888888;
 }
 
-.arrowright {
+.home {
   width: 100px;
   height: 100px;
   background-color: #eee;
@@ -97,13 +108,13 @@ input[type="email"] {
   border: 3px dotted rgba(0,0,0,0.1); 
 }
 
-.arrowright i {
+.home i {
   margin-top: 15px;
-  margin-left: 25px;
+  margin-left: 21px;
 
 }
 
-.arrowright:hover {
+.home:hover {
   cursor: pointer;
   box-shadow: 1px 1px 3px #888888;
 }
