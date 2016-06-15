@@ -11,7 +11,7 @@
 	<script src="https://use.fontawesome.com/7a7f3effb0.js"></script>
 
 </head>
-<body>
+<body class="color">
 <div class = "container">
 	<div class="wrapper">
 		<form action="" method="post" name="Login_Form" class="form-signin">       
@@ -26,7 +26,7 @@
 
 			  <input type="email" class="form-control" name="email" placeholder="Email" required=""/>        
 			 
-			  <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Register" type="Submit">Register</button>
+			  <button class="btn btn-lg btn-danger btn-block"  name="Submit" value="Register" type="Submit">Register</button>
 
 
 			  <div class="arrowleft">
