@@ -16,6 +16,9 @@
     <link href="docs/assets/css/bootstrap.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <!-- Loading Font Awsome -->
+    <link rel="stylesheet" href="dist/css/font-awesome.css">
 
     <!-- Loading Costum Flat UI -->
      <link href="dist/css/style.css" rel="stylesheet">
