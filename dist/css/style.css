@@ -2,7 +2,6 @@
 
 /* Header */
 header {
-	background-color: #36444F;
 	min-height: 0;
 	width: 100%;
 	color: white;
@@ -12,7 +11,10 @@ header {
   color: white;
 }
 .navbar-default .navbar-brand {
-  color: white;
+	color: white;
+}
+.navbar {
+	background-color: #36444F;
 }
 .navbar-default {
 	padding-bottom: 0;
@@ -46,9 +48,6 @@ header {
   }
 }
 
-.transparent {
-	background: transparent;
-}
 .btn-default {
 	background-color: #1abc9c;
 	color: white;
