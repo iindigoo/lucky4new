@@ -295,3 +295,8 @@ p {
     text-align: center;
 }
 
+.panel {
+    margin-top: 10px;
+    height: 700px;
+    border-radius: 0;
+}
