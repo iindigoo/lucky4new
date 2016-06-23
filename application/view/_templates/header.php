@@ -39,21 +39,11 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-01">
 					<ul class="nav navbar-nav">
-            <li <?php if (View::checkForActiveController($filename, "index")) { echo ' class="active" '; } ?> >
-                <a href="<?php echo Config::get('URL'); ?>index/index">Index</a>
-            </li>
-            <li <?php if (View::checkForActiveController($filename, "profile")) { echo ' class="active" '; } ?> >
-                <a href="<?php echo Config::get('URL'); ?>profile/index">Profiles</a>
-            </li>
             <?php if (Session::userIsLoggedIn()) { ?>
-                <li <?php if (View::checkForActiveController($filename, "dashboard")) { echo ' class="active" '; } ?> >
-                    <a href="<?php echo Config::get('URL'); ?>dashboard/index">Dashboard</a>
-                </li>
-                <li <?php if (View::checkForActiveController($filename, "note")) { echo ' class="active" '; } ?> >
-                    <a href="<?php echo Config::get('URL'); ?>note/index">My Notes</a>
+                <li <?php if (View::checkForActiveController($filename, "tickets")) { echo ' class="active" '; } ?> >
+                    <a href="<?php echo Config::get('URL'); ?>tickets/index">Tickets</a>
                 </li>
 						<li><a href="roullete.php">Roullete</a></li>
-						<li><a href="putin.php">Putin</a></li>
 						<?php } else { ?>
 					</ul>
 					
