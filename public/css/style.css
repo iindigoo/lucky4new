@@ -299,4 +299,19 @@ p {
     margin-top: 10px;
     height: 700px;
     border-radius: 0;
+    background-color: #d04b40;
+    border: 0;
 }
+
+body.ticketsBackground {
+    background-color: #e85447;
+}
+
+#tickets p {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
