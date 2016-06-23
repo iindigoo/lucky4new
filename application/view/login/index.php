@@ -1,5 +1,5 @@
 <div class="box-login">
-    <div class="wrapper">
+    <div class="wrapper-login">
 
     <!-- echo out the system feedback (error and success messages) -->
     <?php $this->renderFeedbackMessages(); ?>
