@@ -46,26 +46,20 @@
 						<li><a href="roullete.php">Roullete</a></li>
 						<?php } else { ?>
 					</ul>
-					
-						<ul class="navbar-right sign nav navbar-nav">
-							<li>
+					<ul class="nav navbar-nav navbar-right">
+					<li>
                     		<a href="<?php echo Config::get('URL'); ?>login/index">Login</a>
                 			</li>
                             <li>
 							<button class="btn btn-default navbar-btn btn-sm" type="button"><a href="<?php echo Config::get('URL'); ?>register/index">Sign up</a></button>
                             </li>
-						</ul>
-					<?php } ?>
-						<!-- my account -->
-	<?php if (Session::userIsLoggedIn()) : ?>
-	<div class="navbar-right nav navbar-nav">
-		<div class="btn-group">
-		  <button class="btn btn-inverse dropdown-toggle" type="button" data-toggle="dropdown">
-		    Large button <span class="caret"></span>
-		  </button>
-        	<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
-            		<li>
-                		<a href="<?php echo Config::get('URL'); ?>user/index">My Account</a>
+                            <?php } ?>
+                    <?php if (Session::userIsLoggedIn()) : ?>
+        				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li>
+                <a href="<?php echo Config::get('URL'); ?>user/index">My Account</a>
                     </li>
                     <li>
                         <a href="<?php echo Config::get('URL'); ?>user/changeUserRole">Change account type</a>
@@ -89,9 +83,11 @@
 	                <li>
 	                    <a href="<?php echo Config::get('URL'); ?>admin/">Admin</a>
 	            	</li>
-            </ul>
-             	<?php endif; ?>
+          </ul>
+                      	<?php endif; ?>
         	<?php endif; ?>
+        </li>
+      </ul>
         	</div>
         </div>
      </div>

@@ -9,6 +9,15 @@ header {
 }
 .btn-group {
     padding-top: 8px;
+    float: right;
+    text-align: right;
+}
+
+.btn {
+    background-color: #1abc9c;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a {
   color: white;
