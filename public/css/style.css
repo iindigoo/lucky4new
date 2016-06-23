@@ -7,6 +7,9 @@ header {
 	color: white;
 	text-transform: uppercase;
 }
+.btn-group {
+    padding-top: 8px;
+}
 .navbar-default .navbar-nav > li > a {
   color: white;
 }

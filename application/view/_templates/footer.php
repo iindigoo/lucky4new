@@ -33,10 +33,10 @@
 
 	</footer>
 </body>
-		<script src="dist/js/vendor/jquery.min.js"></script>
-		<script src="dist/js/vendor/video.js"></script>
-		<script src="dist/js/flat-ui.min.js"></script>
-		<script src="docs/assets/js/application.js"></script>
+		<script src="<?php echo Config::get('URL'); ?>js/vendor/jquery.min.js"></script>
+		<script src="<?php echo Config::get('URL'); ?>js/vendor/video.js"></script>
+		<script src="<?php echo Config::get('URL'); ?>js/flat-ui.min.js"></script>
+		<script src="<?php echo Config::get('URL'); ?>js/application.js"></script>
 
 		<script>
 		  videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
