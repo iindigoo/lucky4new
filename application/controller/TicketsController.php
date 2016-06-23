@@ -26,6 +26,7 @@ class TicketsController extends Controller
 
     public function addcredits() {
         $tickets = UserModel::addtickets(10,1);
+
         $this->View->renderJSON($tickets);
 
     }
