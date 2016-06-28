@@ -83,7 +83,12 @@
 	                <li>
 	                    <a href="<?php echo Config::get('URL'); ?>admin/">Admin</a>
 	            	</li>
+
+                    
           </ul>
+          <li>
+              <p id="ticketsValue"></p>
+          </li>
                       	<?php endif; ?>
         	<?php endif; ?>
         </li>
