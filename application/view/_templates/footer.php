@@ -9,12 +9,18 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	</footer>
 </body>
+<<<<<<< HEAD
 		<script src="<?php echo Config::get('URL'); ?>js/bootstrap.js"></script>
 		<script src="<?php echo Config::get('URL'); ?>js/bootstrap.min.js"></script>
+=======
+	    <script>
+        	var url = "<?php echo Config::get('URL'); ?>";
+    	</script>
+>>>>>>> origin/master
 		<script src="<?php echo Config::get('URL'); ?>js/vendor/jquery.min.js"></script>
 		<script src="<?php echo Config::get('URL'); ?>js/vendor/video.js"></script>
 		<script src="<?php echo Config::get('URL'); ?>js/flat-ui.min.js"></script>
-		<script src="<?php echo Config::get('URL'); ?>js/application.js"></script>
+		<script src="<?php echo Config::get('URL'); ?>js/update.js"></script>
 
 		<script>
 		  videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
