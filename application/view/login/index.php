@@ -1,19 +1,30 @@
-<div class="box-login">
-    <div class="wrapper-login">
+<div class="container">    
+        
+    <div id="loginbox" class="mainbox col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3"> 
 
-    <!-- echo out the system feedback (error and success messages) -->
-    <?php $this->renderFeedbackMessages(); ?>
+        
+        <div class="panel panel-default" >
+            <div class="panel-heading">
+                <div class="panel-title text-center">Login</div>
+            </div>     
 
-            <!-- login box on left side -->
+            <div class="panel-body" >
+
                 <form action="<?php echo Config::get('URL'); ?>login/login" method="post">
-                    <div class="input-wrapper">
-                            <label for="username"><i class="fa fa-user fa-2x"></i></label><input type="text" name="user_name" placeholder="Username or email" required>
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" name="user_password" placeholder="Password">
+                   
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input class="form-control" type="text" name="user_name" placeholder="Username or email" required>                                        
                     </div>
 
-                    <!-- <label for="set_remember_me_cookie" class="remember-me-label">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input class="form-control" type="password" name="user_password" placeholder="Password">
+                    </div>                                                                  
+
+                    <div class="form-group">
+                        <!-- Button -->
+                         <!-- <label for="set_remember_me_cookie" class="remember-me-label">
                         <input type="checkbox" name="set_remember_me_cookie" class="remember-me-checkbox" />
                         Remember me for 2 weeks
                     </label> -->
@@ -33,12 +44,18 @@
                             3. http://stackoverflow.com/questions/13667437/how-to-add-csrf-token-to-login-form?lq=1
                     -->
                     <input type="hidden" name="csrf_token" value="<?= Csrf::makeToken(); ?>" />
-                    <input type="submit" class="login-submit-button" value="Log in"/>
+                    <div class="col-sm-12 controls">
+                            <button type="submit" value="Log in" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> Log in</button>
+                            <input type="hidden" name="csrf_token" value="<?= Csrf::makeToken(); ?>" />
+                            
+                    </div>
                 </form>
-                <div class="link-forgot-my-password">
-                    <a href="<?php echo Config::get('URL'); ?>login/requestPasswordReset">I forgot my password</a>
-                </div>
+                        <div class="link-forgot-my-password">
+                            <a href="<?php echo Config::get('URL'); ?>login/requestPasswordReset">I forgot my password</a>
+                        </div>
+                    </div>
+                </form>     
+            </div>                     
+        </div>  
     </div>
 </div>
-
-
