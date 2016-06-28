@@ -25,7 +25,14 @@ class TicketsController extends Controller
     }
 
     public function addcredits() {
-        $tickets = UserModel::addtickets(20,1);
+        $tickets = UserModel::addtickets(1,20);
+
+        $this->View->renderJSON($tickets);
+
+    }
+
+    public function getCredits() {
+        $tickets = UserModel::addtickets(1);
 
         $this->View->renderJSON($tickets);
 

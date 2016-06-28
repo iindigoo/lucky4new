@@ -99,7 +99,7 @@
                     
           </ul>
           <li>
-              <p id="ticketsValue"></p>
+              <a href="" id="ticketsValue"></a>
           </li>
                       	<?php endif; ?>
         	<?php endif; ?>
