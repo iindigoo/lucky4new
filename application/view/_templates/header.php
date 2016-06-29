@@ -55,55 +55,20 @@
                 <?php } ?>
         <li class="dropdown">
           <?php if (Session::userIsLoggedIn()) : ?>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acount <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Acount Settings</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#"><p id="ticketsValue"></p></a></li>
             <li role="separator" class="divider"></li>
             <li><a href="<?php echo Config::get('URL'); ?>login/logout">Logout</a></li>
             <?php if (Session::get("user_account_type") == 7) : ?>
             <li>
-<<<<<<< HEAD
                 <a href="<?php echo Config::get('URL'); ?>admin/">Admin</a>
             </li>
                 <?php endif; ?>
             <?php endif; ?>
           </ul>
-=======
-                <a href="<?php echo Config::get('URL'); ?>user/index">My Account</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo Config::get('URL'); ?>user/changeUserRole">Change account type</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo Config::get('URL'); ?>user/editAvatar">Edit your avatar</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo Config::get('URL'); ?>user/editusername">Edit my username</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo Config::get('URL'); ?>user/edituseremail">Edit my email</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo Config::get('URL'); ?>user/changePassword">Change Password</a>
-                    </li>
-                    <li >
-                        <a href="<?php echo Config::get('URL'); ?>login/logout">Logout</a>
-                    </li>
-                    <?php if (Session::get("user_account_type") == 7) : ?>
-	                <li>
-	                    <a href="<?php echo Config::get('URL'); ?>admin/">Admin</a>
-	            	</li>
-
-                    
-          </ul>
-          <li>
-              <p id="ticketsValue"></p>
-          </li>
-                      	<?php endif; ?>
-        	<?php endif; ?>
->>>>>>> origin/master
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
