@@ -341,7 +341,7 @@ class UserModel
         return $query->fetch();
     }
 
-    public static function addtickets($addtickets, $user_id) {
+    public static function addtickets($user_id, $addtickets = 0) {
         $database = DatabaseFactory::getFactory()->getConnection();
          $query = $database->prepare("SELECT user_tickets FROM users WHERE user_id = :user_id");
          $query->execute(array(':user_id' => $user_id ));

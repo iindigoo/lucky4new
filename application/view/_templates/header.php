@@ -69,6 +69,38 @@
                 <?php endif; ?>
             <?php endif; ?>
           </ul>
+                <a href="<?php echo Config::get('URL'); ?>user/index">My Account</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo Config::get('URL'); ?>user/changeUserRole">Change account type</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo Config::get('URL'); ?>user/editAvatar">Edit your avatar</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo Config::get('URL'); ?>user/editusername">Edit my username</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo Config::get('URL'); ?>user/edituseremail">Edit my email</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo Config::get('URL'); ?>user/changePassword">Change Password</a>
+                    </li>
+                    <li >
+                        <a href="<?php echo Config::get('URL'); ?>login/logout">Logout</a>
+                    </li>
+                    <?php if (Session::get("user_account_type") == 7) : ?>
+	                <li>
+	                    <a href="<?php echo Config::get('URL'); ?>admin/">Admin</a>
+	            	</li>
+
+                    
+          </ul>
+          <li>
+              <a href="" id="ticketsValue"></a>
+          </li>
+                      	<?php endif; ?>
+        	<?php endif; ?>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
