@@ -24,15 +24,15 @@ class TicketsController extends Controller
         $this->View->render('tickets/index');
     }
 
-    public function addcredits() {
-        $tickets = UserModel::addtickets(1,20);
+    public function addCredits() {
+        $tickets = TicketsModel::addtickets(20);
 
         $this->View->renderJSON($tickets);
 
     }
 
     public function getCredits() {
-        $tickets = UserModel::addtickets(1);
+        $tickets = TicketsModel::getTickets();
 
         $this->View->renderJSON($tickets);
 

@@ -1,6 +1,6 @@
  
 <body class="ticketsBackground">
-
+<?php $this->renderFeedbackMessages(); ?>
 <div class="container" id="tickets">
 
 <p>wait {SECONDS} for 20 tickets!</p>

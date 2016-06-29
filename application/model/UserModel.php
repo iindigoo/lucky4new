@@ -340,16 +340,4 @@ class UserModel
         // return one row (we only have one result or nothing)
         return $query->fetch();
     }
-
-    public static function addtickets($user_id, $addtickets = 0) {
-        $database = DatabaseFactory::getFactory()->getConnection();
-         $query = $database->prepare("SELECT user_tickets FROM users WHERE user_id = :user_id");
-         $query->execute(array(':user_id' => $user_id ));
-         $user = $query->fetch();
-         $tickets = $user->user_tickets;
-         $tickets += $addtickets;
-         $query = $database->prepare("UPDATE users SET user_tickets =:user_tickets WHERE user_id=:user_id");
-         $query->execute(array(':user_id' => $user_id , ':user_tickets' => $tickets));
-         return $tickets;
-    }
 }
