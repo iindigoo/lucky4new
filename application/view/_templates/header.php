@@ -40,13 +40,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="<?php echo Config::get('URL'); ?>tickets/index">Free tickets</a></li>
         <li><a href="#">Link</a></li>
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
               <?php if (Session::userIsLoggedIn()) { ?>
-               
+
+                <li><a id="ticketsValue" href="#"></a></li>
         <?php } else { ?>
                 <!-- for not logged in users -->
                 <li <?php if (View::checkForActiveControllerAndAction($filename, "login/index")) { echo ' class="active" '; } ?> >

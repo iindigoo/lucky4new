@@ -10,8 +10,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	 </footer>
 </body>
-		<!-- <script src="<?php echo Config::get('URL'); ?>js/bootstrap.js"></script> -->
-		<!-- <script src="<?php echo Config::get('URL'); ?>js/bootstrap.min.js"></script>-->
+		<?php if (Session::userIsLoggedIn()) : ?>
+			<script src="<?php echo Config::get('URL'); ?>js/update.js"></script>
+		<?php endif; ?>
+		<script src="<?php echo Config::get('URL'); ?>js/bootstrap.js"></script> 
+		<script src="<?php echo Config::get('URL'); ?>js/bootstrap.min.js"></script>
 	    <script>
         	var url = "<?php echo Config::get('URL'); ?>";
     	</script>
