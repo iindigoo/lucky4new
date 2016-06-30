@@ -25,6 +25,7 @@
                     <td>suspension Time in days</td>
                     <td>Soft delete</td>
                     <td>Submit</td>
+                    <td>Tickets</td>
                 </tr>
                 </thead>
                 <?php foreach ($this->users as $user) { ?>

@@ -20,3 +20,4 @@
 
 </div>
 <script src="<?php echo Config::get('URL'); ?>js/update.js"></script>
+<script src="<?php echo Config::get('URL'); ?>js/progressbar.js"></script>

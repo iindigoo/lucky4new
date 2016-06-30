@@ -93,3 +93,9 @@ class AdminModel
 		}
 	}
 }
+
+	public static function showUserTickets($userId) {
+		$database = DatabaseFactory::getFactory()->getConnection();
+
+
+	}
