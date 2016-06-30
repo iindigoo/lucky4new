@@ -60,7 +60,6 @@
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Acount Settings</a></li>
-            <li><a href="#"><p id="ticketsValue"></p></a></li>
             <li role="separator" class="divider"></li>
             <li><a href="<?php echo Config::get('URL'); ?>login/logout">Logout</a></li>
             <?php if (Session::get("user_account_type") == 7) : ?>
