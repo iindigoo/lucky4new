@@ -19,4 +19,4 @@
 	</div>
 
 </div>
-</body>
+<script src="<?php echo Config::get('URL'); ?>js/update.js"></script>

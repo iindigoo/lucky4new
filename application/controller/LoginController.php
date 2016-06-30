@@ -36,9 +36,12 @@ class LoginController extends Controller
     public function login()
     {
         // check if csrf token is valid
+        echo Session::get('csrf_token') . '<br>';
+        echo Request::post('csrf_token') . '<br>';
         if (!Csrf::isTokenValid()) {
             LoginModel::logout();
-            Redirect::home();
+            echo "kut";
+            //Redirect::home();
             exit();
         }
 
