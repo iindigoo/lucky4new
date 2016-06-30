@@ -16,11 +16,7 @@ $(document).ready(function() {
         })
         .done(function(data) {
             tickets = $.parseJSON(data);
-            if (tickets ,$.isNumeric()) {
                 $('#ticketsValue').html(tickets.toString()); 
-            } else {
-                console.log('foo');
-            }
         });
     });
 });

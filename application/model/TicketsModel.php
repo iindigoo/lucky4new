@@ -24,7 +24,7 @@ class TicketsModel
         
         $result = $query->fetch();
 
-        if (time() - $result->ticket_last_update_timestamp < 30) {
+        if (time() - $result->ticket_last_update_timestamp < 5) {
         	return false;
         }
 
