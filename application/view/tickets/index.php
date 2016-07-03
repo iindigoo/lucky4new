@@ -14,8 +14,18 @@
 
 	<div class="panel panel-default">
 	  <div class="panel-body">
+<<<<<<< HEAD
+	  
+
+=======
+>>>>>>> origin/master
 	  </div>
 	</div>
 
 </div>
 
+<<<<<<< HEAD
+=======
+<script src="<?php echo Config::get('URL'); ?>js/update.js"></script>
+<script src="<?php echo Config::get('URL'); ?>js/progressbar.js"></script>
+>>>>>>> origin/master
