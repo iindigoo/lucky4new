@@ -8,7 +8,7 @@
 
 
 	<div class="progress">
-	  <div class="progress-bar" style="width: 1%;"></div>
+	  <div class="progress-bar" style="width: 16%;"></div>
 	</div>
 
 
@@ -18,8 +18,4 @@
 	</div>
 
 </div>
-<<<<<<< HEAD
-<script src="<?php echo Config::get('URL'); ?>js/update.js"></script>
-<script src="<?php echo Config::get('URL'); ?>js/progressbar.js"></script>
-=======
->>>>>>> origin/master
+

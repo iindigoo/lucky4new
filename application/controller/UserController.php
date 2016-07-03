@@ -91,7 +91,7 @@ class UserController extends Controller
     public function uploadAvatar_action()
     {
         AvatarModel::createAvatar();
-        Redirect::to('user/editAvatar');
+        Redirect::to('user/index');
     }
 
     /**
@@ -153,5 +153,29 @@ class UserController extends Controller
             Redirect::to('user/index');
         else
             Redirect::to('user/changePassword');
+    }
+    public function changeUser_action()
+    {
+        UserModel::editUserEmail(Request::post('user_email'));
+        Redirect::to('user/editUserEmail');
+        // check if csrf token is valid
+        if (!Csrf::isTokenValid()) {
+            LoginModel::logout();
+            Redirect::home();
+            exit();
+        }
+
+        UserModel::editUserName(Request::post('user_name'));
+        Redirect::to('user/index ');
+
+        $result = PasswordResetModel::changePassword(
+            Session::get('user_name'), Request::post('user_password_current'),
+            Request::post('user_password_new'), Request::post('user_password_repeat')
+        );
+
+        if($result)
+            Redirect::to('user/index');
+        else
+            Redirect::to('user/index');
     }
 }

@@ -2,7 +2,6 @@
 <footer>
 <div class="footer"></div>
 	<div class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
 
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -12,6 +11,7 @@
 </body>
 		<?php if (Session::userIsLoggedIn()) : ?>
 			<script src="<?php echo Config::get('URL'); ?>js/update.js"></script>
+			<script src="<?php echo Config::get('URL'); ?>js/progressbar.js"></script>
 		<?php endif; ?>
 		<script src="<?php echo Config::get('URL'); ?>js/bootstrap.js"></script> 
 		<script src="<?php echo Config::get('URL'); ?>js/bootstrap.min.js"></script>

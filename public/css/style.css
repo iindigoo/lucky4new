@@ -1,47 +1,23 @@
+/* Navbar */
 .navbar {
     box-shadow: 0;
     border: 0;
 }
 
-
-.mainbox {
-  position: absolute;
-  top: 25%;
-  left: 0%;
-}
-
-.input-group {
-  padding: 10px 10px;
-}
-
+/* Body */
 body {
     background-color: white;
+    min-height: 970px;
 }
 
+/* Footer */
+/* Login/Register */
 #loginbox {
     margin-top: 30px;
 }
 
 #loginbox > div:first-child {        
     padding-bottom: 10px;    
-}
-
-.iconmelon {
-    display: block;
-    margin: auto;
-}
-
-#form > div {
-    margin-bottom: 25px;
-}
-
-#form > div:last-child {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.panel {    
-    background-color: ffffff;
 }
 
 .panel-body {
@@ -61,22 +37,27 @@ body {
     z-index: -2;
 }
 
-.iconmelon,
-.im {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  display: block;
-  fill: #525151;
-}
-
-.iconmelon:after,
-.im:after {
-  content: '';
+.mainbox {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 25%;
+  left: 0%;
 }
 
+.input-group {
+  padding: 10px 10px;
+}
+
+/* Footer */
+
+
+/* Settings */
+.user {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+/* Free Coins */

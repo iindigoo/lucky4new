@@ -40,14 +40,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="<?php echo Config::get('URL'); ?>tickets/index">Free tickets</a></li>
+        <li class=""><a href="<?php echo Config::get('URL'); ?>tickets/index">Free tickets</a></li>
         <li><a href="#">Link</a></li>
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
               <?php if (Session::userIsLoggedIn()) { ?>
-
-                <li><a id="ticketsValue" href="#"></a></li>
+                    <li><a href="" id="ticketsValue"> </a></li>
         <?php } else { ?>
                 <!-- for not logged in users -->
                 <li <?php if (View::checkForActiveControllerAndAction($filename, "login/index")) { echo ' class="active" '; } ?> >
@@ -55,13 +54,13 @@
                 </li> 
                 <?php } ?>
         <li class="dropdown">
-          <?php if (Session::userIsLoggedIn()) : ?>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acount <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+            <?php if (Session::userIsLoggedIn()) : ?>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acount<span class="caret"></span></a>
+            <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
-            <li><a href="#">Acount Settings</a></li>
+            <li><a href="<?php echo Config::get('URL'); ?>user/index">Settings<span class="glyphicon glyphicon-cog pull-right"></span></a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="<?php echo Config::get('URL'); ?>login/logout">Logout</a></li>
+            <li><a href="<?php echo Config::get('URL'); ?>login/logout">Logout<span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
             <?php if (Session::get("user_account_type") == 7) : ?>
             <li>
                 <a href="<?php echo Config::get('URL'); ?>admin/">Admin</a>
@@ -74,5 +73,3 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-  </body>
-</html>
