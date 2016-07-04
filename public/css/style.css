@@ -11,6 +11,66 @@ body {
 }
 
 /* Footer */
+#footerText {
+  text-align: center;
+  margin-top: 6px;
+}
+
+/* Roulette */
+#bett
+{
+ width:20%;
+ height:30px;
+ float-right:5%
+ float-left:5%;
+ float:right;
+}
+holder_spin
+{
+ width:100%;
+ min-height:960px;
+}
+.color{
+width:4.761904761904762%;
+    padding-top:4.761904761904762%;
+ float:left;
+}
+
+.red
+{
+ background-color:red;
+}
+.black
+{
+ background-color:black;
+}
+.gold
+{
+ background-color:green;
+}
+
+.klicker
+{
+ background-color:gold;
+ width:2px;
+    padding-top:4.761904761904762%;
+ float:left;
+position: fixed;
+    top: 8px;
+    right: 10px;
+ transition:             right 750ms ease;
+        -moz-transition:    right 750ms ease;
+        -ms-transition:     right 750ms ease;
+        -o-transition:      right 750ms ease;
+        -webkit-transition: right 750ms ease;
+}
+.name{
+ margin-top:-70%;
+ color:white;
+ font-size:2vw;
+ text-align: center;
+}
+
 /* Login/Register */
 #loginbox {
     margin-top: 30px;
@@ -47,12 +107,7 @@ body {
   padding: 10px 10px;
 }
 
-/* Footer */
 
-#footerText {
-  text-align: center;
-  margin-top: 6px;
-}
 
 
 /* Settings */

@@ -41,13 +41,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class=""><a href="<?php echo Config::get('URL'); ?>tickets/index">Free tickets</a></li>
-<<<<<<< HEAD
-        <li class=""><a href="<?php echo Config::get('URL'); ?>roulette/index">Roulette</a></li>
-=======
-        <li><a href="#">Roulette</a></li>
+
+        <li><a href="<?php echo Config::get('URL'); ?>roulette/index">Roulette</a></li>
         <li><a href="#">Depoist</a></li>
         <li><a href="#">Market</a></li>
->>>>>>> origin/master
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
