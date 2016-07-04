@@ -49,6 +49,11 @@ body {
 
 /* Footer */
 
+#footerText {
+  text-align: center;
+  margin-top: 6px;
+}
+
 
 /* Settings */
 .user {
@@ -61,3 +66,7 @@ body {
 }
 
 /* Free Coins */
+
+.profielInfo {
+  text-align: center;
+}

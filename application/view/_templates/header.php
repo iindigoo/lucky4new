@@ -41,7 +41,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class=""><a href="<?php echo Config::get('URL'); ?>tickets/index">Free tickets</a></li>
+<<<<<<< HEAD
         <li class=""><a href="<?php echo Config::get('URL'); ?>roulette/index">Roulette</a></li>
+=======
+        <li><a href="#">Roulette</a></li>
+        <li><a href="#">Depoist</a></li>
+        <li><a href="#">Market</a></li>
+>>>>>>> origin/master
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
@@ -54,12 +60,23 @@
                 </li> 
                 <?php } ?>
         <li class="dropdown">
+
             <?php if (Session::userIsLoggedIn()) : ?>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acount<span class="caret"></span></a>
             <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
+
+
+            <!-- Profiel foto van gebruiker -->
+            <div class="profielInfo">
+             <?php if (Config::get('USE_GRAVATAR')) { ?>
+                    <img class="avatar img-circle" src='<?= $this->user_gravatar_image_url; ?>' />
+                <?php } else { ?>
+                    <img class="avatar img-circle" src='<?= $this->user_avatar_file; ?>' />
+                <?php } ?>
+                <li><?=  $this->user_name; ?></li>
+          </div>
+          <li role="separator" class="divider"></li>
             <li><a href="<?php echo Config::get('URL'); ?>user/index">Settings<span class="glyphicon glyphicon-cog pull-right"></span></a></li>
-            <li role="separator" class="divider"></li>
             <li><a href="<?php echo Config::get('URL'); ?>login/logout">Logout<span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
             <?php if (Session::get("user_account_type") == 7) : ?>
             <li>
