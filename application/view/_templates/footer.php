@@ -3,6 +3,16 @@
 <div class="footer"></div>
 	<div class="navbar navbar-default navbar-fixed-bottom">
 
+		<div class="container" id="footerText">
+		<ul class="list-inline" style="display:inline-block;margin-top:10px">
+			<li>Copyright &copy; 2016, LUCKY4 - All rights reserved.</li>
+			<li><a href="tos.php">Terms of Service</a></li>
+			<li><a href="faq.php">FAQ</a></li>
+			<li><a href="contact.php">Contact Us</a></li>
+			<li><a href="http://steampowered.com" target="_target">Powered by Steam</a></li>
+		</ul>
+	</div>	
+
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
