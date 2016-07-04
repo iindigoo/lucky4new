@@ -41,7 +41,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class=""><a href="<?php echo Config::get('URL'); ?>tickets/index">Free tickets</a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="#">Roulette</a></li>
+        <li><a href="#">Depoist</a></li>
+        <li><a href="#">Market</a></li>
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
