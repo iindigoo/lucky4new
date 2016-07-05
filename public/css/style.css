@@ -1,13 +1,13 @@
 /* Navbar */
 .navbar {
-    box-shadow: 0;
-    border: 0;
+	box-shadow: 0;
+	border: 0;
 }
 
 /* Body */
 body {
-    background-color: white;
-    min-height: 970px;
+	background-color: white;
+	min-height: 970px;
 }
 
 /* Footer */
@@ -19,50 +19,50 @@ body {
 /* Roulette */
 #bett
 {
- width:20%;
- height:30px;
- float-right:5%
- float-left:5%;
- float:right;
+	width:20%;
+	height:30px;
+	float-right:5%;
+	float-left:5%;
+	float:right;
 }
 holder_spin
 {
- width:100%;
- min-height:960px;
+	width:100%;
+	min-height:960px;
 }
 .color{
-width:4.761904761904762%;
-    padding-top:4.761904761904762%;
- float:left;
+	width:4.761904761904762%;
+	padding-top:4.761904761904762%;
+	float:left;
 }
 
 .red
 {
- background-color:red;
+	background-color:red;
 }
 .black
 {
- background-color:black;
+	background-color:black;
 }
 .gold
 {
- background-color:green;
+	background-color:green;
 }
 
 .klicker
 {
- background-color:gold;
- width:2px;
-    padding-top:4.761904761904762%;
- float:left;
-position: fixed;
-    top: 8px;
-    right: 10px;
- transition:             right 750ms ease;
-        -moz-transition:    right 750ms ease;
-        -ms-transition:     right 750ms ease;
-        -o-transition:      right 750ms ease;
-        -webkit-transition: right 750ms ease;
+	background-color:gold;
+	width:2px;
+	padding-top:4.761904761904762%;
+	float:left;
+	position: fixed;
+	top: 8px;
+	right: 10px;
+	transition:             right 750ms ease;
+	-moz-transition:    right 750ms ease;
+	-ms-transition:     right 750ms ease;
+	-o-transition:      right 750ms ease;
+	-webkit-transition: right 750ms ease;
 }
 .name{
  margin-top:-70%;
@@ -73,28 +73,28 @@ position: fixed;
 
 /* Login/Register */
 #loginbox {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 #loginbox > div:first-child {        
-    padding-bottom: 10px;    
+	padding-bottom: 10px;    
 }
 
 .panel-body {
-    padding-top: 30px;
-    background-color: rgba(2555,255,255,.3);
+	padding-top: 30px;
+	background-color: rgba(2555,255,255,.3);
 }
 
 #particles {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    top: 0;                        
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: -2;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;                        
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	z-index: -2;
 }
 
 .mainbox {

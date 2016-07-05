@@ -25,3 +25,6 @@ $(document).ready(function() {
         });
     });
 });
+    function move() {
+        document.getElementById("move_me").style.right = '<?php echo $random;?>%;'
+    }
